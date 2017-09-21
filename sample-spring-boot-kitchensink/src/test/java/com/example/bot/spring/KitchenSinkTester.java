@@ -75,7 +75,7 @@ public class KitchenSinkTester {
 		assertThat(result).isEqualTo("def");
 	}
 	@Test
-	public void testFound() throws Exception {
+	public void testFound1() throws Exception {
 		boolean thrown = false;
 		String result = null;
 		try {
