@@ -24,5 +24,7 @@ public class Observer {
 		// TODO: The observer will exit the queue 
 		// once the notification has value >= this.id+7.
 		// Don't forget they will leave if it is their number too.
+		if (Integer.parseInt(subject.getMessage()) == id || Integer.parseInt(subject.getMessage()) >= this.id+7)
+ 			unsubscribe();
 	}
 }
